@@ -6425,6 +6425,16 @@ label.panel-block {
   justify-content: space-around;
   align-items: center; }
 
+.navbar-start {
+  flex: 1;
+  max-width: 60%; }
+
+@media only screen and (max-width: 500px) {
+  .navbar {
+    flex-direction: column; }
+  .navbar-start {
+    min-width: 90%; } }
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -8055,7 +8065,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .title {
   color: #363636;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.125; }
   .title strong {
     color: inherit;

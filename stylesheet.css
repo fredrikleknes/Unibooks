@@ -1,17 +1,29 @@
-.header {
+.navbar {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
     flex-direction: row;
-    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background: #00d1b2;
+}
+
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.column {
+    flex: 1;
+    background: #fcfcfc;
 
 }
 
 
-
-
 @media only screen and (max-width: 500px) {
-    .header {
+    .navbar {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

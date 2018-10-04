@@ -28,6 +28,21 @@ $body-background-color: $beige-lighter;
 $control-border-width: 1px;
 $input-shadow: none;
 
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1 100%;
+}
+
+
+
 .navbar {
     display: flex;
     flex-direction: row;

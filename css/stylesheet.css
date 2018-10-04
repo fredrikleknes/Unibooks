@@ -6419,6 +6419,15 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.flex-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1 100%; }
+
 .navbar {
   display: flex;
   flex-direction: row;
